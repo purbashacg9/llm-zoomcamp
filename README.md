@@ -28,7 +28,7 @@ knowledge base.
 - [Materials specific to 2024 cohort](cohorts/2024/)
  
 
-### Pre-requisites
+## Pre-requisites
 
 * Comfortable with programming and Python
 * Comfortable with command line
@@ -42,12 +42,9 @@ We encourage [Learning in Public](learning-in-public.md)
 
 ### Pre-course workshops
 
-Implement a search engine
+Implement a search engine: [Video](https://www.youtube.com/watch?v=nMrGK5QgPVE), [code](https://github.com/alexeygrigorev/build-your-own-search-engine)
 
-* Video: https://www.youtube.com/watch?v=nMrGK5QgPVE
-* Code: https://github.com/alexeygrigorev/build-your-own-search-engine
-
-### [Introduction to LLMs and RAG](01-intro/)
+### 1. [Introduction to LLMs and RAG](01-intro/)
 
 * LLMs and RAG
 * Preparing the environment 
@@ -56,37 +53,36 @@ Implement a search engine
 * Simple RAG with Open AI
 * Text search with Elasticsearch
 
-### [Open-source LLMs](02-open-source/)
+### 2. [Open-source LLMs](02-open-source/)
 
 * Getting an environment with a GPU
 * Open-source models from HuggingFace Hub
 * Running LLMs on a CPU with Ollama
 * Creating a simple UI with Streamlit 
 
-### [Vector databases](03-vector-search/)
+### 3. [Vector databases](03-vector-search/)
 
 * Vector search
 * Creating and indexing embeddings
 * Vector search with Elasticsearch
+* Offline evaluation of retrieval
 
 ### [Workshop: dlt](cohorts/2024/workshops/dlt.md)
 
 
-### [Monitoring and Guardrails](04-monitoring/)
+### 4. [Evaluation and monitoring](04-monitoring/)
 
-* Monitoring with ground-truth
-* Metrics (RAGAs)
-* Dashboarding with Grafana for visualization
-* Monitoring chat
-* Guardrails
+* Offline evaluation of RAG
+* Cosine and LLM-as-a-Judge metrics 
+* Tracking chat history and user feedback
+* Creating dashboards with Grafana for visualization
 
-### [LLM orchestration and ingestion pipelines](05-orchestration/)
+### 5. [LLM orchestration and ingestion](05-orchestration/)
 
 * Ingesting data with Mage
 
 
-
-### [Tips and Tricks for advanced RAG systems](06-best-practices/)
+### 6. [Best practices](06-best-practices/)
 
 * Best practices
 
